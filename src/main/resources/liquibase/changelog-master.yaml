@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/1.0/create_telephones.sql
+
+  - include:
+      file: liquibase/1.0/create_tv.sql
+
+  - include:
+      file: liquibase/1.0/create_notebook.sql
+
+  - include:
+      file: liquibase/1.0/create_refrigerator.sql
+
+  - include:
+      file: liquibase/1.0/create_washing_machine.sql
+
+
+
